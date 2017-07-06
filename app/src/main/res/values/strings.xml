@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Go have fun in Genoa</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="category_eat">Eat</string>
+    <string name="category_drink">Drink</string>
+    <string name="category_havefun">Have Fun</string>
+    <string name="category_learn">Learn</string>
+</resources>
