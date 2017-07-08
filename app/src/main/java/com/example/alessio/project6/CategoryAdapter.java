@@ -20,32 +20,15 @@ public class CategoryAdapter extends FragmentPagerAdapter {
     @Override
     public Fragment getItem(int position){
 
-        /*switch (position) {
+        switch (position) {
             case 0:
                 return new EatFragment();
-            break;
             case 1:
                 return new DrinkFragment();
-                break;
             case 2:
                 return new HaveFunFragment();
-                break;
-            case 3:
+            default:
                 return new LearnFragment();
-                break;
-        }
-
-        return null;*/
-
-
-        if (position == 0) {
-            return new EatFragment();
-        } else if (position == 1) {
-            return new DrinkFragment();
-        } else if (position == 2) {
-            return new HaveFunFragment();
-        } else {
-            return new LearnFragment();
         }
     }
 
@@ -57,14 +40,16 @@ public class CategoryAdapter extends FragmentPagerAdapter {
 
     /*Helper Method*/
     public CharSequence getPageTitle(int position) {
-        if (position == 0) {
-            return mContext.getString(R.string.category_eat);
-        } else if (position == 1) {
-            return mContext.getString(R.string.category_drink);
-        } else if (position == 2) {
-            return mContext.getString(R.string.category_havefun);
-        } else {
-            return mContext.getString(R.string.category_learn);
+
+        switch (position) {
+            case 0:
+                return mContext.getString(R.string.category_eat);
+            case 1:
+                return mContext.getString(R.string.category_drink);
+            case 2:
+                return mContext.getString(R.string.category_havefun);
+            default:
+                return mContext.getString(R.string.category_learn);
         }
     }
 }
