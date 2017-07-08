@@ -19,6 +19,25 @@ public class CategoryAdapter extends FragmentPagerAdapter {
     /*Helper Method*/
     @Override
     public Fragment getItem(int position){
+
+        /*switch (position) {
+            case 0:
+                return new EatFragment();
+            break;
+            case 1:
+                return new DrinkFragment();
+                break;
+            case 2:
+                return new HaveFunFragment();
+                break;
+            case 3:
+                return new LearnFragment();
+                break;
+        }
+
+        return null;*/
+
+
         if (position == 0) {
             return new EatFragment();
         } else if (position == 1) {

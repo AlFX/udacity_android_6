@@ -29,13 +29,13 @@ public class LearnFragment extends Fragment {
         final ArrayList<Place> places = new ArrayList<>();
 
         /*populate it*/
-        places.add(new Place("Università degli Studi di Genova - Engineering","Via Montallegro, 1","You could not care but you don't see an engineering department inside a XVI century italian villa everyday.", R.drawable.ingegneria));
-        places.add(new Place("Museo di Storia Naturale Giacomo Doria","Via Brigata Liguria, 9","A nice early XX century building filled with naturalistic knowledge. Kind of dusty.", R.drawable.storianaturale));
-        places.add(new Place("Osservatorio Astronomico del Righi","Via Mura delle Chiappe, 44","The place to go if you like astronomy. Lots of divulgative events, lovely little place run by friendly volunteers.", R.drawable.osservatorio));
-        places.add(new Place("Sottomarino Nazario Sauro","Calata De Mari, 1","A diesel-powered submarine turned into a museum, yes, it will make your day.", R.drawable.sottomarino));
-        places.add(new Place("Biblioteca Civica Lercari","Via S. Fruttuoso, 74","A public library inside XV century villa, inside a big park. What else?", R.drawable.lercari));
-        places.add(new Place("Cimitero Monumentale di Staglieno","Piazzale Resasco","World-famous early XIX century cemetery. The Cure fans will love this.", R.drawable.staglieno));
-        places.add(new Place("Via Garibaldi - già Strada Nuova","Via Garibaldi","Only renaissance nobility palaces here. UNESCO protected heritage or something like that.", R.drawable.garibaldi));
+        places.add(new Place(getString(R.string.ingegneria_name),getString(R.string.ingegneria_address),getString(R.string.ingegneria_description), R.drawable.ingegneria));
+        places.add(new Place(getString(R.string.storianaturale_name),getString(R.string.storianaturale_address),getString(R.string.staglieno_description), R.drawable.storianaturale));
+        places.add(new Place(getString(R.string.osservatorio_name),getString(R.string.osservatorio_address),getString(R.string.osservatorio_description), R.drawable.osservatorio));
+        places.add(new Place(getString(R.string.sottomarino_name),getString(R.string.sottomarino_address),getString(R.string.sottomarino_description), R.drawable.sottomarino));
+        places.add(new Place(getString(R.string.lercari_name),getString(R.string.lercari_address),getString(R.string.lercari_description), R.drawable.lercari));
+        places.add(new Place(getString(R.string.staglieno_name),getString(R.string.staglieno_address),getString(R.string.staglieno_description), R.drawable.staglieno));
+        places.add(new Place(getString(R.string.garibaldi_name),getString(R.string.garibaldi_address),getString(R.string.garibaldi_description), R.drawable.garibaldi));
 
         /*Declare the adapter that associates Places with Fragments*/
         PlaceAdapter adapter = new PlaceAdapter(getActivity(), places);

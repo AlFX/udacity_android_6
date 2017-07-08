@@ -1,10 +1,91 @@
 <resources>
     <string name="app_name">Go have fun in Genoa</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--categories-->
     <string name="category_eat">Eat</string>
     <string name="category_drink">Drink</string>
     <string name="category_havefun">Have Fun</string>
     <string name="category_learn">Learn</string>
+
+    <!--drink-->
+    <string name="imo_name">Bar Imo</string>
+    <string name="imo_address">Piazza Attilio Firpo, 1</string>
+    <string name="imo_description">The classic dirty ill-famed bar you shouldn\'t go to. Long drinks feel like gasoline.</string>
+
+    <string name="britannia_name">Britannia Pub</string>
+    <string name="britannia_address">Vico della Casana, 76</string>
+    <string name="britannia_description">Old fashioned fake-British pub, established in 1972. Kind of expensive, the place to go if you really miss England.</string>
+
+    <string name="lepre_name">La Lepre</string>
+    <string name="lepre_address">Piazza della Lepre, 5/r</string>
+    <string name="lepre_description">Hipster-favourite, friendly people and great fun. Great bet anytime, particularly good during springtime.</string>
+
+    <string name="nuccio_name">Bar delle Vigne (Nuccio)</string>
+    <string name="nuccio_address">Vico delle Vigne, 4</string>
+    <string name="nuccio_description">The dear old, great place that everybody in the old town love. Kind of ill-famed but it\'s ok, never saw a fight there.</string>
+
+    <!--eat-->
+    <string name="montallegro_name">Montallegro</string>
+    <string name="montallegro_address">via Mura delle Chiappe 30r</string>
+    <string name="montallegro_description">Traditional Genovese pizza and focaccia, with a great landscape on the bay. Established in 1913.</string>
+
+    <string name="brinca_name">La Brinca</string>
+    <string name="brinca_address">Via Campo di Ne 58, Chiavari</string>
+    <string name="brinca_description">Premium traditional Genovese food surrounded by countryside and vineyards.</string>
+
+    <string name="ruscin_name">Ruscin</string>
+    <string name="ruscin_address">Salita Sella, 198</string>
+    <string name="ruscin_description">If you live in Genoa, just a couple of minutes away by drive separate you from the best fried food in the region. Friendly staff.</string>
+
+    <string name="baita_name">La Baita</string>
+    <string name="baita_address">Via Alpini d\' Italia, 8, Recco</string>
+    <string name="baita_description">After a day at the beach, why not having some excellent handmade food on the hills?</string>
+
+    <!--have fun-->
+    <string name="virgo_name">Virgo Discoclub</string>
+    <string name="virgo_address">Via Carzino, 13r</string>
+    <string name="virgo_description">Great dance club, great parties, gay-friendly, a must-go.</string>
+
+    <string name="banano_name">Banano Tsunami</string>
+    <string name="banano_address">Porto Antico, Ponte Embriaco</string>
+    <string name="banano_description">A dance lounge built on top of a floating platform within Genoa harbor, fancy.</string>
+
+    <string name="mako_name">Makò</string>
+    <string name="mako_address">Corso Italia, 28r</string>
+    <string name="mako_description">To be honest, you will just find boring posh people there but if your purpose is showing off this is the place to go.</string>
+
+    <string name="estoril_name">Estoril</string>
+    <string name="estoril_address">Corso Italia, 7D</string>
+    <string name="estoril_description">Same as above but at least there are a restaurant and a beach.</string>
+
+
+    <!--learn-->
+    <string name="ingegneria_name">Università degli Studi di Genova - Engineering</string>
+    <string name="ingegneria_address">Via Montallegro, 1</string>
+    <string name="ingegneria_description">You could not care but you don\'t see an engineering department inside a XVI century italian villa everyday.</string>
+
+    <string name="storianaturale_name">Museo di Storia Naturale Giacomo Doria</string>
+    <string name="storianaturale_address">Via Brigata Liguria, 9</string>
+    <string name="storianaturale_description">A nice early XX century building filled with naturalistic knowledge. Kind of dusty.</string>
+
+    <string name="osservatorio_name">Osservatorio Astronomico del Righi</string>
+    <string name="osservatorio_address">Via Mura delle Chiappe, 44</string>
+    <string name="osservatorio_description">The place to go if you like astronomy. Lots of popular events, lovely little place run by friendly volunteers.</string>
+
+    <string name="sottomarino_name">Sottomarino Nazario Sauro</string>
+    <string name="sottomarino_address">Calata De Mari, 1</string>
+    <string name="sottomarino_description">A diesel-powered submarine turned into a museum. Yes, you can go inside. Yes, it will make your day.</string>
+
+    <string name="lercari_name">Biblioteca Civica Lercari</string>
+    <string name="lercari_address">Via S. Fruttuoso, 74</string>
+    <string name="lercari_description">A public library inside XV century villa, inside a big park. What else?</string>
+
+    <string name="staglieno_name">Cimitero Monumentale di Staglieno</string>
+    <string name="staglieno_address">Piazzale Resasco</string>
+    <string name="staglieno_description">World-famous monumental cemetry, featuring some near-celebrity buried there, like Oscar Wilde\'s wife. The Cure fans will love this.</string>
+
+    <string name="garibaldi_name">Via Garibaldi - già Strada Nuova</string>
+    <string name="garibaldi_address">Via Garibaldi</string>
+    <string name="garibaldi_description">Only renaissance nobility palaces here. UNESCO protected heritage or something like that.</string>
+
 </resources>
