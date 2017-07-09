@@ -25,13 +25,16 @@ public class PlaceAdapter extends ArrayAdapter<Place> {
     @NonNull
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
+        /*convertView is what recycles list objects that get out of sight*/
         View listItemView = convertView;
 
+        /*if there is no view (app just started), inflate it*/
         if (listItemView == null) {
             listItemView = LayoutInflater.from(getContext()).inflate(R.layout.list_item, parent, false);
         }
         Place currentPlace = getItem(position);
 
+        /*find the views to be filled with info*/
         TextView nameTextView = (TextView) listItemView.findViewById(R.id.name_text_view);
         nameTextView.setText(currentPlace.getName());
 
